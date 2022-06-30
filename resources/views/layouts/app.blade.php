@@ -19,7 +19,7 @@
                 <div class="navbar-nav">
                   <a class="nav-link" aria-current="page" href="{{ route('homepage')}}">Home</a>
                   <a class="nav-link" href="{{ route('comics.index')}}">Lista dei Fumetti</a>
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="{{ route('comics.create')}}">Crea un nuovo fumetto</a>
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </div>
               </div>
